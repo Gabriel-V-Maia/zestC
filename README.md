@@ -1,4 +1,3 @@
-```markdown
 # zestC
 ZestC é uma framework de testes em C, feita em apenas um arquivo.
 Ela foca ser simples, e no futuro, mais customizada, fiz ela para uso próprio mas acredito que outros devem achar utilidade.
@@ -82,4 +81,3 @@ gcc main.c -o tests && ./tests
 | `ZEST_ASSERT_NULL(p)` | Falha se `p != NULL` |
 | `ZEST_ASSERT_NOTNULL(p)` | Falha se `p == NULL` |
 | `ZEST_ASSERT_STR_EQ(a, b)` | Falha se strings forem diferentes |
-```
